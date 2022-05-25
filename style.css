@@ -52,6 +52,7 @@ p {
 
 header {
     margin-bottom: 16px;
+    text-align: center;
 }
 
 header p {
@@ -134,6 +135,18 @@ figcaption {
     background-color: rgba(10, 11, 10, 0.65);
 }
 
+.purple {
+    background-color: rgba(186, 108, 186, 0.65);
+}
+
+.orange {
+    background-color: rgba(190, 132, 24, 0.65);
+}
+
+.blue { 
+    background-color: rgba(63, 63, 196, 0.746);
+}
+
 .close,
 .inner {
     display: none;
@@ -170,19 +183,34 @@ figcaption {
     display: block;
 }
 
-#cities:not(.active) {
-    top: 18%;
-    left: 29%;
+#alex:not(.active) {
+    top: 27%;
+    left: 22%;
 }
 
-#sabr:not(.active) {
-    top: 39%;
-    right: 18%;
+#crystal:not(.active) {
+    top: 53%;
+    right: 28%;
 }
 
-#debka:not(.active) {
+#jeff:not(.active) {
+    bottom: 35%;
+    left: 15%;
+}
+
+#donnell:not(.active) {
+    top: 34%;
+    right: 49%;
+}
+
+#elliot:not(.active) {
     bottom: 45%;
-    left: 32%;
+    right: 51%;
+}
+
+#ty:not(.active) {
+    top: 22%;
+    right: 31%;
 }
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
